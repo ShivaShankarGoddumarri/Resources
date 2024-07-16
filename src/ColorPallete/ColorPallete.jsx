@@ -39,28 +39,28 @@ const Title2 = styled.div`
 const PrimaryBox = styled.div`
   background-color: ${({ theme }) => theme.primary};
   border-radius: 10px;
-  height: ${(props) => props.height || '120px'}; /* Set default height */
+  height: ${(props) => props.height || '120px'}; 
   width: ${(props) => props.width || '100%'};
 `;
 
 const SecondaryBox1 = styled.div`
   background-color: ${({ theme }) => theme.secondary};
   border-radius: 10px;
-  height: ${(props) => props.height || '100px'}; /* Set default height */
+  height: ${(props) => props.height || '100px'}; 
   width: ${(props) => props.width || '100%'};
 `;
 
 const SecondaryBox2 = styled.div`
-  background-color: ${({ theme }) => theme.secondary}; /* Use tertiary color */
+  background-color: ${({ theme }) => theme.secondary}; 
   border-radius: 10px;
-  height: ${(props) => props.height || '100px'}; /* Set default height */
+  height: ${(props) => props.height || '100px'}; 
   width: ${(props) => props.width || '100%'};
 `;
 
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px; /* Increased gap for better separation */
+  gap: 10px; 
 `;
 
 const ColorPallete = () => {
