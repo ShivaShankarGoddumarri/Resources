@@ -23,35 +23,35 @@ const Card = styled.div`
 `;
 
 const Title1 = styled.div`
-  background-color: ${({ theme }) => theme.primary};
+  background-color: ${({ theme }) => theme.secondary};
   border-radius: 10px;
   height: ${(props) => props.height || '20px'};
   width: ${(props) => props.width || '100%'};
 `;
 
 const Title2 = styled.div`
-  background-color: ${({ theme }) => theme.secondary};
+  background-color: ${({ theme }) => theme.primary};
   border-radius: 10px;
   height: ${(props) => props.height || '20px'};
   width: ${(props) => props.width || '100%'};
 `;
 
 const PrimaryBox = styled.div`
-  background-color: ${({ theme }) => theme.secondary};
+  background-color: ${({ theme }) => theme.primary};
   border-radius: 10px;
   height: ${(props) => props.height || '120px'}; /* Set default height */
   width: ${(props) => props.width || '100%'};
 `;
 
 const SecondaryBox1 = styled.div`
-  background-color: ${({ theme }) => theme.primary};
+  background-color: ${({ theme }) => theme.secondary};
   border-radius: 10px;
   height: ${(props) => props.height || '100px'}; /* Set default height */
   width: ${(props) => props.width || '100%'};
 `;
 
 const SecondaryBox2 = styled.div`
-  background-color: ${({ theme }) => theme.primary}; /* Use tertiary color */
+  background-color: ${({ theme }) => theme.secondary}; /* Use tertiary color */
   border-radius: 10px;
   height: ${(props) => props.height || '100px'}; /* Set default height */
   width: ${(props) => props.width || '100%'};
