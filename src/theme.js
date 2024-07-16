@@ -15,9 +15,9 @@ export const darkTheme = {
     cardBackground: '#FFFFFF',
     cardBorder: '#FFFFFF',
     primary: '#D3D3FF',
-    secondary: '#A3A3FF',  
+    secondary: '#8F8FFF',  
     textColor: '#000000',
     navBackground: '#FFFFFF',
-    buttonBackground: '#007bff',
+    buttonBackground: '#8F8FFF',
     buttonText: '#FFFFFF',
   };
